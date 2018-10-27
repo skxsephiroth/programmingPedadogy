@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'programmingPedagogy';
+  title = 'Road map to Programming for kids';
+  changeTitle(newTitle){
+    this.title=newTitle;
+  }
 }
